@@ -1,0 +1,150 @@
+body{
+    background-color: #FFFFFF;
+}
+
+
+/* !!!!!! D3 LAB !!!!! */
+.title {
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* !!!!! svg elements | chart & map  !!!!! */
+
+.svg-map {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  overflow: hidden;
+  width: 50%;
+}
+.svg-map-responsive {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+.svg-chart {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  overflow: hidden;
+  width: 50%;
+  height: relative;
+}
+
+
+.svg-chart-responsive {
+    background-color: none;
+    border: none;
+    float: right;
+    margin: 10px 0 0 20px; 
+}
+
+
+/* !!!!! CHART INFO !!!!! */
+/*
+.chart{
+    background-color: none;
+    border: none;
+    float: right;
+    margin: 10px 0 0 20px; 
+}
+*/
+.chartTitle {
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    float: left;
+}
+
+.chartBackground {
+    fill: rgba(128,128,128,.2);
+}
+
+/* !!!!! need to change color !!!!! */
+.chartFrame {
+    fill: none;
+    stroke: none;
+    stroke-width: 3px;
+    shape-rendering: crispEdges;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000000;
+    color:#000000;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 1em;
+    fill: #000000;
+}
+
+
+/* !!!!! dropdown  !!!!! */
+
+.dropdown {
+    position: absolute;
+    top: 130px;
+    left: 430px;
+    z-index: 10;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 2px;
+    border: 1px solid #999;
+    
+}
+
+option {
+    font-weight: normal;
+}
+
+
+/* !!!!! OTHER !!!!! */
+
+.addZipcodes {
+    stroke: black;
+    stroke-opacity: 0.8;
+    stroke-width: 0.5px;
+    stroke-linecap: round;
+}
+
+
+/* !!!!! HOVER !!!!! */
+.infolabel {
+    position: absolute;
+    height: 80px;
+    min-width: 100px;
+    color: #fff;
+    background-color: #000;
+    border: solid thin #fff;
+    padding: 5px 10px;
+}
+
+.infolabel h1 {
+    margin: 0 20px 0 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 1em;
+}
+
+.labelname {
+    font-weight: 700;
+    color: #D6A400;
+}
+
+.dataDesc {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
+    min-width: 40px;
+    max-width: 40px;
+}
+
+
